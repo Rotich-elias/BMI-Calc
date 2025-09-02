@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hello DevOps</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello DevOps! 🚀</h1>
-    <p>This is my first project linked with Git & VS Code on Ubuntu.</p>
+  <div class="container">
+    <h1>BMI Calculator</h1>
+    <form id="bmiForm">
+      <label for="weight">Weight (kg):</label>
+      <input type="number" id="weight" required>
+
+      <label for="height">Height (cm):</label>
+      <input type="number" id="height" required>
+
+      <button type="submit">Calculate BMI</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
