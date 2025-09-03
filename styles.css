@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  background: #ffdbdb;
+  background: #a55757;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
@@ -67,4 +67,13 @@ body {
   text-align: center;
   padding: 10px;
   background-color: #f1f1f1;
+}
+
+.container {
+  background: #a55757;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  margin-bottom: 50px; /* Add space below the container */
 }
