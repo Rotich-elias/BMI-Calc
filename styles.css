@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: hsl(210, 80%, 44%);
+  background: hsl(0, 0%, 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  background: rgb(29, 23, 23);
+  background: #ffdbdb;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
@@ -52,4 +52,19 @@ button:hover {
   margin-top: 20px;
   font-weight: bold;
   text-align: center;
+}
+html, body {
+  height: ;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
 }
