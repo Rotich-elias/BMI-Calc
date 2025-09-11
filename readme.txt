@@ -1,4 +1,4 @@
-# BMI Calculator
+# BMI Calculator and send email
 
 A web-based BMI calculator that collects user details and sends BMI results via email.
 
