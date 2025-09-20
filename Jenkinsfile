@@ -4,8 +4,11 @@ pipeline {
     stages {
         stage('Deploy') {
             steps {
-                sshagent(['your-credential-id']) {
-                    sh 'ssh -o StrictHostKeyChecking=no deployer@your_server_ip "cd /var/www/your_site_name && git pull"'
+                sshagent(['jenkinsfirst']) {
+                    sh '''
+                        ssh -o StrictHostKeyChecking=no deployer@192.168.100.65 \
+                        "cd /var/www/wordpress && git pull && sudo systemctl reload nginx"
+                    '''
                 }
             }
         }
