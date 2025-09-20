@@ -7,7 +7,7 @@ pipeline {
                 sshagent(['jenkinsfirst']) {
                     sh '''
                         ssh -o StrictHostKeyChecking=no deployer@192.168.100.65 \
-                        "cd /var/www/wordpress && git pull && sudo systemctl reload nginx"
+                        "cd /var/www/BMI-CALCULATOR && git pull && sudo systemctl reload nginx"
                     '''
                 }
             }
